@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+/* Setting up body background and font family of component */ 
+
+body {
+    background-color: hsl(212, 45%, 89%); 
+    font-family: Outfit; 
+}
+
+/* Container of component which will use flex to center */ 
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+/*Setting up card width, padding and border radius of qr code component */ 
+
+.qr-card {
+    width: 320px; 
+    padding: 16px; 
+    border-radius: 30px; 
+    background-color: white; 
+}
+
+.img-container {
+    border-radius: 30px; 
+}
+
+img {
+    width: 100%; 
+    border-radius: 30px; 
+}
+
+/* Setting up the text of the component */ 
+
+.text {
+    text-align: center;
+    padding: 20px 0; 
+}
+
+h1 { 
+    color: hsl(218, 44%, 22%); 
+}
+
+.text p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin-top: 15px; 
+    color: hsl(220, 15%, 55%); 
+    padding: 0 5px; 
+}
+
